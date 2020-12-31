@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84c6720d-3498-428e-9d64-0308f75d225a" name="Default Changelist" comment="add post method for BeerController">
+    <list default="true" id="84c6720d-3498-428e-9d64-0308f75d225a" name="Default Changelist" comment="fix requestBody">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/services/BeerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/services/BeerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/services/BeerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/services/BeerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/BeerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/BeerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609434620750</updated>
-      <workItem from="1609434621830" duration="3780000" />
+      <workItem from="1609434621830" duration="4982000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1609434861822</created>
@@ -106,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609439027346</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add put method for beer">
+      <created>1609439835582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609439835582</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix requestBody">
+      <created>1609450845981</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609450845981</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +132,8 @@
     <MESSAGE value="init project" />
     <MESSAGE value="create customer service" />
     <MESSAGE value="add post method for BeerController" />
-    <option name="LAST_COMMIT_MESSAGE" value="add post method for BeerController" />
+    <MESSAGE value="add put method for beer" />
+    <MESSAGE value="fix requestBody" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix requestBody" />
   </component>
 </project>
