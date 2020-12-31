@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84c6720d-3498-428e-9d64-0308f75d225a" name="Default Changelist" comment="implement deleteBeer">
+    <list default="true" id="84c6720d-3498-428e-9d64-0308f75d225a" name="Default Changelist" comment="add PUT POST DELETE method to customer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/services/v2/BeerServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/services/v2/BeerServiceV2Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/v2/BeerControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/model/v2/BeerDtoV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/model/v2/BeerStyleEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/services/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/services/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/services/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/BeerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/BeerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/CustomerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -55,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.northernjay.msscbrewery.services.v2" />
       <recent name="org.northernjay.msscbrewery.services" />
     </key>
   </component>
@@ -86,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609434620750</updated>
-      <workItem from="1609434621830" duration="6032000" />
+      <workItem from="1609434621830" duration="7287000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1609434861822</created>
@@ -130,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609451270910</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add PUT POST DELETE method to customer">
+      <created>1609452288709</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609452288709</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +153,7 @@
     <MESSAGE value="add put method for beer" />
     <MESSAGE value="fix requestBody" />
     <MESSAGE value="implement deleteBeer" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement deleteBeer" />
+    <MESSAGE value="add PUT POST DELETE method to customer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add PUT POST DELETE method to customer" />
   </component>
 </project>
