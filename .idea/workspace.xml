@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84c6720d-3498-428e-9d64-0308f75d225a" name="Default Changelist" comment="update beerService to v2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/northernjay/msscbrewery/web/controller/BeerControllerTest.java" afterDir="false" />
+    <list default="true" id="84c6720d-3498-428e-9d64-0308f75d225a" name="Default Changelist" comment="add validation to beerDto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mssc-brewery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mssc-brewery.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/BeerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/BeerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/model/BeerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/model/BeerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/v2/BeerControllerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/v2/BeerControllerV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +133,7 @@
       <updated>1609434620750</updated>
       <workItem from="1609434621830" duration="7632000" />
       <workItem from="1609773997764" duration="661000" />
-      <workItem from="1609800082032" duration="317000" />
+      <workItem from="1609800082032" duration="932000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1609434861822</created>
@@ -195,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609453728182</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add validation to beerDto">
+      <created>1609800673262</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609800673262</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +224,7 @@
     <MESSAGE value="implement deleteBeer" />
     <MESSAGE value="add PUT POST DELETE method to customer" />
     <MESSAGE value="update to v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to v2" />
+    <MESSAGE value="add validation to beerDto" />
+    <option name="LAST_COMMIT_MESSAGE" value="add validation to beerDto" />
   </component>
 </project>
