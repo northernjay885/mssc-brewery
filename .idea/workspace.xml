@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84c6720d-3498-428e-9d64-0308f75d225a" name="Default Changelist" comment="add validation error handler">
+    <list default="true" id="84c6720d-3498-428e-9d64-0308f75d225a" name="Default Changelist" comment="add validation handler to CustomerController">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/MvcExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/model/CustomerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/northernjay/msscbrewery/web/model/CustomerDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,13 +68,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.BeerControllerTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,7 +136,8 @@
       <updated>1609434620750</updated>
       <workItem from="1609434621830" duration="7632000" />
       <workItem from="1609773997764" duration="661000" />
-      <workItem from="1609800082032" duration="1552000" />
+      <workItem from="1609800082032" duration="1821000" />
+      <workItem from="1609806856334" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1609434861822</created>
@@ -206,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609801029114</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add validation handler to CustomerController">
+      <created>1609801748068</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609801748068</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +232,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
@@ -234,6 +245,7 @@
     <MESSAGE value="update to v2" />
     <MESSAGE value="add validation to beerDto" />
     <MESSAGE value="add validation error handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="add validation error handler" />
+    <MESSAGE value="add validation handler to CustomerController" />
+    <option name="LAST_COMMIT_MESSAGE" value="add validation handler to CustomerController" />
   </component>
 </project>
